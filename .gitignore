@@ -1,0 +1,45 @@
+# Python bytecode and caches
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Common generated artifacts
+*.npy
+*.pkl
+*.pt
+*.bin
+*.zip
+
+# Project-specific large/generated data
+LLaVA/
+posed_images*
+scannet_instance*
+scannet_test_instance*
+scannet_output/
+scannet_top10_output/
+test_output/
+data/scannet/scannet_instance_data
+data/scannet/scannet_instance_data_backup
+data/scannet/scenes_processed
+data/scannet/scenes_deprecated
+data/scannet/scans*
+nltk_data/
+data/
+scannet_20_output/

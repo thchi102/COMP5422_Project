@@ -1,0 +1,5 @@
+
+api_key:
+api_version: 2024-06-01
+azure_endpoint:
+model: gpt-4o

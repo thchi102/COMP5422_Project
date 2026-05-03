@@ -1,0 +1,10 @@
+__pycache__/
+*/__pycache__/
+LLaVA/
+*.py[cod]
+*$py.class
+
+checkpoints/
+scannet_output/
+scannet_top10_output/
+test_output/
