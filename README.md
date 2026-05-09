@@ -130,6 +130,7 @@ Use scripts in `VLM-Grounder/tools`
         --top-k 10 \
         --edge-radius 0.015
     ```
+4. Evaluation scripts for the evaluation against VLM-grouder can be found in the `evaluation` folder. Follow the `README.md` in there to perform evaluation.
 
 ## Notes
 

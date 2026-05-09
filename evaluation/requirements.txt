@@ -1,0 +1,6 @@
+# Evaluator dependencies (scripts/evaluate.py + scripts/lib/)
+# Install in whichever conda env runs the evaluator on the SSH server.
+# The server's TOD env already has numpy — just needs plyfile.
+
+numpy>=1.24
+plyfile>=0.9

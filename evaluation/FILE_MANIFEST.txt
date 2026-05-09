@@ -1,0 +1,30 @@
+COMP5422 VLM-Grounder benchmark submission package
+
+Included source/config files:
+- README.md
+- requirements.txt
+- scannet_download.py
+- data/nr3d_top10.csv
+- data/nr3d_top10_manifest.json
+- data/schema_v1.json
+- scripts/run_vlm_grounder.py
+- scripts/check_nr3d_top10_readiness.py
+- scripts/convert_manifest_to_vg_csv.py
+- scripts/build_referit3d_manifest.py
+- scripts/evaluate.py
+- scripts/validate_schema.py
+- scripts/lib/__init__.py
+- scripts/lib/chamfer.py
+- scripts/lib/gt_bbox.py
+- scripts/lib/iou.py
+- scripts/lib/matching.py
+- docs/evaluation_content.md
+- docs/evaluation_memory.md
+
+Not included due to size / reproducibility:
+- data/ScanNet/
+- data/ReferIt3D/nr3d.csv
+- scripts/vlm-grounder-repo/
+- outputs/
+- model checkpoints and vLLM cache
+- Python virtual environments
